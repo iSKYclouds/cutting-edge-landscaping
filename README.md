@@ -1,2 +1,326 @@
 # cutting-edge-landscaping
-id=file_0000000054c081f5a5ab4e2ee17a7853&ts=495759&p=fs&cid=1&sig=a3657f3f86194d80511823b0f379a1a04b39a57a0ed6dc635eeaa00a2d82f511&v=0
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cutting Edge Landscaping</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+
+background:
+
+linear-gradient(rgba(60,35,0,.45),rgba(40,20,0,.55)),
+
+url("https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1800&q=80");
+
+background-size:cover;
+
+background-position:center;
+
+background-attachment:fixed;
+
+color:white;
+
+}
+
+.hero{
+
+min-height:100vh;
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+padding:30px;
+
+text-align:center;
+
+}
+
+.container{
+
+max-width:1100px;
+
+}
+
+.logo{
+
+font-size:18px;
+
+letter-spacing:4px;
+
+color:#ffd28b;
+
+margin-bottom:15px;
+
+text-transform:uppercase;
+
+}
+
+h1{
+
+font-size:clamp(3rem,8vw,6rem);
+
+font-weight:800;
+
+line-height:.95;
+
+margin-bottom:25px;
+
+text-shadow:0 8px 20px rgba(0,0,0,.4);
+
+}
+
+.orange{
+
+color:#ff981c;
+
+}
+
+.subtitle{
+
+font-size:1.25rem;
+
+max-width:650px;
+
+margin:auto;
+
+margin-bottom:45px;
+
+line-height:1.7;
+
+}
+
+.contact{
+
+display:flex;
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+gap:30px;
+
+margin-bottom:55px;
+
+font-weight:600;
+
+font-size:1.05rem;
+
+}
+
+.button{
+
+display:inline-block;
+
+padding:18px 42px;
+
+background:#ff8d19;
+
+color:white;
+
+text-decoration:none;
+
+font-weight:700;
+
+border-radius:100px;
+
+transition:.3s;
+
+}
+
+.button:hover{
+
+background:#ff7300;
+
+transform:translateY(-4px);
+
+}
+
+.services{
+
+margin-top:70px;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+gap:25px;
+
+}
+
+.box{
+
+background:rgba(255,255,255,.12);
+
+backdrop-filter:blur(8px);
+
+padding:28px;
+
+border-radius:18px;
+
+transition:.3s;
+
+}
+
+.box:hover{
+
+transform:translateY(-8px);
+
+background:rgba(255,255,255,.18);
+
+}
+
+.box h2{
+
+font-size:1.3rem;
+
+margin-bottom:12px;
+
+color:#ffb347;
+
+}
+
+.box p{
+
+line-height:1.6;
+
+font-size:.95rem;
+
+}
+
+footer{
+
+margin-top:70px;
+
+font-size:.9rem;
+
+opacity:.9;
+
+}
+
+@media(max-width:700px){
+
+.contact{
+
+flex-direction:column;
+
+gap:15px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="container">
+
+<div class="logo">
+
+EDIT BUSINESS NAME HERE
+
+</div>
+
+<h1>
+
+CUTTING <span class="orange">EDGE</span><br>
+
+LANDSCAPING
+
+</h1>
+
+<p class="subtitle">
+
+Professional lawn care that keeps your property looking clean, healthy, and beautiful all season long.
+
+</p>
+
+<div class="contact">
+
+<div>📞 (555) 555-5555</div>
+
+<div>📧 youremail@email.com</div>
+
+<div>👤 Your Name</div>
+
+</div>
+
+<a class="button" href="tel:5555555555">
+
+FREE ESTIMATE
+
+</a>
+
+<div class="services">
+
+<div class="box">
+
+<h2>🌱 Lawn Mowing</h2>
+
+<p>Weekly and bi-weekly lawn maintenance.</p>
+
+</div>
+
+<div class="box">
+
+<h2>✂️ Trimming</h2>
+
+<p>Professional edging and clean borders.</p>
+
+</div>
+
+<div class="box">
+
+<h2>🍂 Yard Cleanup</h2>
+
+<p>Leaves, debris and seasonal cleanups.</p>
+
+</div>
+
+<div class="box">
+
+<h2>🌳 Landscaping</h2>
+
+<p>Mulching, planting and property improvements.</p>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 Cutting Edge Landscaping
+
+</footer>
+
+</div>
+
+</section>
+
+</body>
+
+</html>
